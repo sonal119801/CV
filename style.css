@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Babylonica&family=Beau+Rivage&family=Grape+Nuts&family=Indie+Flower&family=Lavishly+Yours&family=Merriweather&family=Montserrat&family=Sacramento&display=swap');
+
+/*@import url('https://fonts.googleapis.com/css2?family=Babylonica&family=Beau+Rivage&family=Grape+Nuts&family=Indie+Flower&family=Lavishly+Yours&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Babylonica&family=Beau+Rivage&family=Grape+Nuts&family=Indie+Flower&family=Lavishly+Yours&family=Merriweather&family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Babylonica&family=Beau+Rivage&family=Grape+Nuts&family=Indie+Flower&family=Lavishly+Yours&family=Merriweather&display=swap');
+*/
+body{
+    margin: 0;
+    background-color: #EAF6F6;
+    text-align: center;
+    font-family: 'Merriweather', serif ;
+}
+p{
+    color: #40514E;
+    font-size: 18px;
+}
+h1{
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    color: #66BFBF;
+    font-size: 90px;
+}
+h2{
+    color: #66BFBF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 33px;
+    /*text-decoration: underline;*/
+
+}
+h3{
+    color: #11999E;
+    font-size: 28px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+#intro{
+    font-family: 'Merriweather', serif;
+    font-size: 38px;
+    font-weight: normal;
+    
+}
+.aboutme{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    line-height: 2;
+}
+/* to position the image we can use position: relative{ or static(which is already by default), absolute, fixed} which in compairision to prev. positioning moves the image by px;*/
+.top-container{
+    position: relative;
+    padding: 100px;
+
+}
+.mid-container{
+    font-family: 'Merriweather', serif;
+    font-size: 42px;
+}
+.bottom-container{
+    font-family: 'Merriweather', serif;
+    font-size: 22px;
+    padding: 10px;
+    margin: 60px auto 0 auto;
+    background-color: #66BFBF;
+
+}
+.top-cloud1{
+    top: 50px;
+    right: 300px;
+
+}
+.top-cloud2{
+    position: absolute;
+    bottom: 140px;
+    right: 220px;
+}
+.mid-cloud{
+    position: absolute;
+    top: 30px;
+    right: 50px;
+}
+.bottom-cloud{
+    position: absolute;
+    bottom: 300px;
+    left: 300px;
+}
+hr{
+    border-style: none;
+    border-top-style: dotted ;
+    border-color: #9fa9a9;
+    width: 4%;
+    border-width: 10px;
+    padding: 20px;
+    
+}
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+
+}
+.code-ide{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+
+}
+.web-ide{
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+
+}
+a{
+    color: #11999E;
+    padding: 20px;
+}
+a:hover{
+    color: #EAF6F6;
+}
+.contact-me{
+    font-size: 22px;
+    padding: 10px;
+    line-height: 2;
+    width: 50%;;
+    margin: 100px auto 100px auto;
+
+}
+#copyright{
+    color: #EAF6F6;
+    font-size: 15px;
+    padding: 20px 0px;
+    
+}
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #30e3cb);
+    background-image: -moz-linear-gradient(top, #30e3cb, #30e3cb);
+    background-image: -ms-linear-gradient(top, #30e3cb, #30e3cb);
+    background-image: -o-linear-gradient(top, #30e3cb, #30e3cb);
+    background-image: linear-gradient(to bottom, #30e3cb, #30e3cb);
+    text-decoration: none;
+  }
+  /*.navbar{
+      background-color: #EAF6F6;
+  }
+  .navbar ul{
+      overflow: auto;
+      float: right;
+      margin: 20px;
+  }
+  .navbar li{
+           /*no color showing without ul declaration coz li overflows from its parent class i.e. navbar styling*/
+     /* list-style: none;
+      line-height: 80px;
+      margin: 0px 5px;
+  }
+  .navbar li a{
+      padding: 4px 4px;
+      color: #11999E;
+      text-decoration: none;
+      text-transform: uppercase;
+  }
+  .logo{
+      margin-left: 0;
+      color: white;
+      font-size: 35px;
+      
+      padding: 0 100px;
+      font-weight: bold;
+  }*/
